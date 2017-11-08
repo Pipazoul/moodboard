@@ -1,0 +1,33 @@
+body {
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+#add-post{
+    transition: all ease-in 1s;
+    text-decoration: none;
+    color: black;
+}
+
+#add-post:hover {
+}
+
+#posts{
+    height: auto;
+    border-left: solid 5px;
+    padding-left: 10px;
+}
+
+.post{
+    width: 50%;
+    margin-bottom: 75px;
+}
+
+.post p {
+    padding-left: 15px;
+}
+
+.post h3 {
+    background: black;
+    padding-left: 5px;
+    color: white;
+}

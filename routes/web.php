@@ -11,6 +11,11 @@
 |
 */
 
-$router->get('/', function () use ($router) {
-    return $router->app->version();
+$router->get('/', 'PostController@getPosts');
+
+//Returns to add a post page
+$router->get('/add', function () {
+    return view('add');
 });
+
+$router->post('/add', 'PostController@addPost');
